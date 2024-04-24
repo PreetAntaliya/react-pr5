@@ -6,7 +6,7 @@ import './App.css'
 
 const Blog = () => {
     return (
-        <div className="py-5">
+        <div className="pt-5">
             <Container>
                 <Row className='py-5'>
                     <Col className='col-12 text-center'>
@@ -17,7 +17,7 @@ const Blog = () => {
                 <Row className='flex-wrap'>
                     <div className="col-4">
                         <div className='my-3'>
-                            <img src={img.img1} alt="" className='img-fluid' />
+                            <img src={img.img7} alt="" className='img-fluid w-100' />
                         </div>
                         <div>
                             <h4>Ligula Id Metus Faucibus</h4>
@@ -32,7 +32,7 @@ const Blog = () => {
                     </div>
                     <div className="col-4">
                         <div className='my-3'>
-                            <img src={img.img2} alt="" className='img-fluid' />
+                            <img src={img.img8} alt="" className='img-fluid w-100' />
                         </div>
                         <div>
                             <h4>Ligula Id Metus Faucibus</h4>
@@ -47,7 +47,7 @@ const Blog = () => {
                     </div>
                     <div className="col-4">
                         <div className='my-3'>
-                            <img src={img.img3} alt="" className='img-fluid' />
+                            <img src={img.img9} alt="" className='img-fluid w-100' />
                         </div>
                         <div>
                             <h4>Ligula Id Metus Faucibus</h4>
